@@ -2,6 +2,7 @@
 body, html{
     height: 100%;
     width: 100%;
+    font-family: sans-serif;
 }
 .the-faces input{
     margin:0;padding:0;
@@ -94,4 +95,11 @@ display: inline-block;
 
 .o3{
     float: left;
+}
+
+.timesChoice{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-family: sans-serif;
 }

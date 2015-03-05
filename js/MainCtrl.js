@@ -8,7 +8,8 @@ app.controller("poopCtrl", function($scope, $firebase) {
 
     $scope.pooped = function() {
         $scope.messages.$add({
-            text: $scope.newMessage.text
+            number: $scope.newMessages
+
 
         })
     }
