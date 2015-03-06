@@ -6,7 +6,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/js/secondCtrl" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/js/secondCtrl.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/js/service.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consistency/five.html" afterPath="$PROJECT_DIR$/consistency/five.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/second.html" afterPath="$PROJECT_DIR$/second.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Ctrl/secondCtrl.js" afterPath="$PROJECT_DIR$/js/Ctrl/secondCtrl.js" />
     </list>
     <ignored path="devFinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +31,7 @@
     <favorites_list name="devFinal" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.16036944">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -55,8 +57,8 @@
           <file leaf-file-name="second.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/second.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9087221" vertical-offset="197" max-vertical-offset="750">
-                  <caret line="43" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.39553753" vertical-offset="120" max-vertical-offset="750">
+                  <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -75,8 +77,18 @@
           <file leaf-file-name="thirdCtrl.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/Ctrl/thirdCtrl.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="330">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
                   <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="secondCtrl.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/Ctrl/secondCtrl.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -149,8 +161,8 @@
           <file leaf-file-name="five.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/consistency/five.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.08722109" vertical-offset="1052" max-vertical-offset="1785">
-                  <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.821501" vertical-offset="240" max-vertical-offset="1620">
+                  <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -171,7 +183,6 @@
         <option value="$PROJECT_DIR$/js/fourth.js" />
         <option value="$PROJECT_DIR$/js/MainCtrl.js" />
         <option value="$PROJECT_DIR$/js/secondCtrl.js" />
-        <option value="$PROJECT_DIR$/second.html" />
         <option value="$PROJECT_DIR$/js/Services/thirdService.js" />
         <option value="$PROJECT_DIR$/js/Ctrl/MainCtrl.js" />
         <option value="$PROJECT_DIR$/js/Services/indexService.js" />
@@ -180,7 +191,6 @@
         <option value="$PROJECT_DIR$/js/Services/parseService.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/Ctrl/secondCtrl.js" />
         <option value="$PROJECT_DIR$/js/Services/secondService.js" />
         <option value="$PROJECT_DIR$/js/Ctrl/thirdCtrl.js" />
         <option value="$PROJECT_DIR$/third.html" />
@@ -189,6 +199,8 @@
         <option value="$PROJECT_DIR$/consistency/two.html" />
         <option value="$PROJECT_DIR$/consistency/three.html" />
         <option value="$PROJECT_DIR$/consistency/four.html" />
+        <option value="$PROJECT_DIR$/js/Ctrl/secondCtrl.js" />
+        <option value="$PROJECT_DIR$/second.html" />
         <option value="$PROJECT_DIR$/consistency/five.html" />
       </list>
     </option>
@@ -272,7 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Services" />
+              <option name="myItemId" value="Ctrl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,14 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Ctrl/thirdCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/third.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="780">
@@ -552,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Ctrl/secondCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2043796" vertical-offset="0" max-vertical-offset="420">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Services/secondService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -572,14 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="275">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9087221" vertical-offset="197" max-vertical-offset="750">
-          <caret line="43" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -616,10 +604,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/Ctrl/thirdCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Ctrl/secondCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39553753" vertical-offset="120" max-vertical-offset="750">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/consistency/five.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08722109" vertical-offset="1052" max-vertical-offset="1785">
-          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.821501" vertical-offset="240" max-vertical-offset="1620">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
           <folding />
         </state>
       </provider>

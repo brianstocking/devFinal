@@ -16,99 +16,88 @@
 <a href="second.html">second</a>
 <a href="third.html">third</a>
 <p>What was the consistency?</p>
+
 <div class="consistency">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
+    <label for="conOne">milk</label>
+    <input id="conOne" ng-model="newMessages.one" value="5" type="range" min="0" max="10" oninput="outputUpdateOne(value)"/>
+    <label for="conOne">metal</label><br/>
+    <button ng-click="conFun(newMessages.one)">submit</button>
+    <output for="conOne" id="volumeOne">5</output>
     <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
+        function outputUpdateOne(vol) {
+            document.querySelector('#volumeOne').value = vol;
         }
     </script>
 
 </div>
-<div class="consistency">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
-    <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
-        }
-    </script>
-
-</div>
 <div class="consistency two">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
+    <label for="conTwo">milk</label>
+    <input id="conTwo" ng-model="newMessages.two" value="5" type="range" min="0" max="10" oninput="outputUpdateTwo(value)"/>
+    <label for="conTwo">metal</label><br/>
+    <button ng-click="conFun(newMessages.two)">submit</button>
+    <output for="conTwo" id="volumeTwo">5</output>
     <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
+        function outputUpdateTwo(vol) {
+            document.querySelector('#volumeTwo').value = vol;
         }
     </script>
 
 </div>
 <div class="consistency three">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
+    <label for="conThree">milk</label>
+    <input id="conThree" ng-model="newMessages.three" value="5" type="range" min="0" max="10" oninput="outputUpdateThree(value)"/>
+    <label for="conThree">metal</label><br/>
+    <button ng-click="conFun(newMessages.three)">submit</button>
+    <output for="con" id="volumeThree">5</output>
     <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
+        function outputUpdateThree(vol) {
+            document.querySelector('#volumeThree').value = vol;
         }
     </script>
 
 </div>
 <div class="consistency four">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
+    <label for="conFour">milk</label>
+    <input id="conFour" ng-model="newMessages.four" value="5" type="range" min="0" max="10" oninput="outputUpdateFour(value)"/>
+    <label for="conFour">metal</label><br/>
+    <button ng-click="conFun(newMessages.four)">submit</button>
+    <output for="conFour" id="volumeFour">5</output>
     <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
+        function outputUpdateFour(vol) {
+            document.querySelector('#volumeFour').value = vol;
         }
     </script>
 
 </div>
 <div class="consistency five">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
+    <label for="conFive">milk</label>
+    <input id="conFive" ng-model="newMessages.five" value="5" type="range" min="0" max="10" oninput="outputUpdateFive(value)"/>
+    <label for="conFive">metal</label><br/>
+    <button ng-click="conFun(newMessages.five)">submit</button>
+    <output for="conFive" id="volumeFive">5</output>
     <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
+        function outputUpdateFive(vol) {
+            document.querySelector('#volumeFive').value = vol;
         }
     </script>
 
+
 </div>
 
-<script src="js/app.js"></script>
-<script src="js/Ctrl/MainCtrl.js"></script>
-<script src="js/Ctrl/indexCtrl.js"></script>
-<script src="js/Ctrl/secondCtrl.js"></script>
-<script src="js/Ctrl/thirdCtrl.js"></script>
-<script src="js/Services/service.js"></script>
-<script src="js/Services/indexService.js"></script>
-<script src="js/Services/secondService.js"></script>
-<script src="js/Services/thirdService.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/Ctrl/MainCtrl.js"></script>
+<script src="../js/Ctrl/indexCtrl.js"></script>
+<script src="../js/Ctrl/secondCtrl.js"></script>
+<script src="../js/Ctrl/thirdCtrl.js"></script>
+<script src="../js/Services/service.js"></script>
+<script src="../js/Services/indexService.js"></script>
+<script src="../js/Services/secondService.js"></script>
+<script src="../js/Services/thirdService.js"></script>
 </body>
 </html>

@@ -18,14 +18,14 @@
 <p>What was the consistency?</p>
 <div class="consistency">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
+    <label for="conOne">milk</label>
+    <input id="conOne" ng-model="newMessages.one" value="5" type="range" min="0" max="10" oninput="outputUpdateOne(value)"/>
+    <label for="conOne">metal</label><br/>
+    <button ng-click="conFun(newMessages.one)">submit</button>
+    <output for="conOne" id="volumeOne">5</output>
     <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
+        function outputUpdateOne(vol) {
+            document.querySelector('#volumeOne').value = vol;
         }
     </script>
 
@@ -33,14 +33,14 @@
 
 <div class="consistency two">
 
-    <label for="con">milk</label>
-    <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
-    <label for="con">metal</label><br/>
-    <button ng-click="conFun(newMessages)">submit</button>
-    <output for="con" id="volume">5</output>
+    <label for="conTwo">milk</label>
+    <input id="conTwo" ng-model="newMessages.two" value="5" type="range" min="0" max="10" oninput="outputUpdateTwo(value)"/>
+    <label for="conTwo">metal</label><br/>
+    <button ng-click="conFun(newMessages.two)">submit</button>
+    <output for="conTwo" id="volumeTwo">5</output>
     <script>
-        function outputUpdate(vol) {
-            document.querySelector('#volume').value = vol;
+        function outputUpdateTwo(vol) {
+            document.querySelector('#volumeTwo').value = vol;
         }
     </script>
 

@@ -13,13 +13,13 @@
 <body ng-controller="CtrlThree">
 
 <a href="index.html">first</a>
-<a href="second.html">second</a>
+<a href="/consistency/five.html">second</a>
 <a href="third.html">third</a>
     <p>What was the consistency?</p>
 <div class="consistency">
 
     <label for="con">milk</label>
-     <input id="con" ng-model="newMessages" value="5" type="range" min="0" max="10" oninput="outputUpdate(value)"/>
+     <input id="con" ng-model="newMessages"  type="range" min="0" max="10" oninput="outputUpdate(value)"/>
     <label for="con">metal</label><br/>
          <button ng-click="conFun(newMessages)">submit</button>
     <output for="con" id="volume">5</output>
